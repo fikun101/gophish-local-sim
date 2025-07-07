@@ -1,0 +1,60 @@
+# GoPhish Phishing Simulation – Project Report
+
+## Project Title
+Phishing Simulation and Credential Harvesting Lab using GoPhish
+
+## Author
+Ahonsi Vincent Oluwafeyikunayomi  
+MSc Cybersecurity 
+
+---
+
+## Objective
+To simulate a phishing attack using GoPhish in a controlled virtual lab, and evaluate how email-based credential harvesting works. The goal was to build awareness of how phishing campaigns are designed, delivered, and analyzed in a safe and ethical manner.
+
+---
+
+## Tools Used
+- GoPhish
+- Gmail SMTP
+- Kali Linux (for GoPhish host)
+- Thunderbird (victim email client)
+- VMware Workstation / VirtualBox
+
+---
+
+## Project Workflow
+1. Installed and configured GoPhish on a Kali VM
+2. Created a fake login landing page styled as "TechNova Login"
+3. Designed a phishing email simulating a security alert
+4. Used Gmail SMTP to deliver the email to a test Gmail inbox
+5. Opened the phishing email and submitted test credentials
+6. Observed results and recorded detection in GoPhish dashboard
+
+---
+
+## Key Results
+- Email successfully received via Gmail
+- Click-through and landing page accessed
+- Credentials captured and logged
+- Logs and screenshots documented
+
+---
+
+## Ethical Considerations
+This simulation was conducted entirely within a virtual environment using self-controlled accounts. No third parties, external users, or real systems were affected. The project was executed solely for educational and professional development purposes.
+
+---
+
+## Supporting Files
+This project is broken down across the following files and folders:
+- `gophish-setup.md`: Full installation & setup walkthrough
+- `email-template.md`: Sample phishing email used
+- `landing-page.md`: HTML of fake login portal
+- `results.md`: Summary of email and interaction outcome
+- `virtual-setup.md`: Configuration of lab and email monitoring
+
+---
+
+## Conclusion
+This project demonstrates how phishing tools like GoPhish can be used responsibly to simulate attacks and understand threat actor techniques. The experience contributes to practical skills in social engineering defense, phishing detection, and cyber awareness campaigns.
